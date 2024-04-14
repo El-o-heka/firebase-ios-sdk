@@ -32,7 +32,7 @@ struct ContentView: View {
 ```swift
 struct ContentView: View {
   var body: some View {
-    Text("Hello, world!")
+    Text("Hello, word!")
        // Logging screen name with class and a custom parameter.
       .analyticsScreen(name: "main_content",
                        class: "ContentView",
@@ -109,3 +109,27 @@ app. This redundancy made the codebase less efficient and harder to maintain.
 
 2. **After:** By adopting the event logging API and manual screen view event logging API, we now condense the event tracking logic into just a few lines of code. This streamlined
 approach improves the overall code efficiency and enhances code readability.
+program that prints patterns
+12
+123
+1234
+12345
+123456
+1234567
+12345678
+123456789
+   iterate numbers from 1-9
+   for(i)range: (1,10)
+   for(j)range:(1,i+1):
+   print (j,end"")
+            Output
+12
+   123
+   1234
+   12345
+   123456
+   1234567
+   12345678
+   123456789
+       ...
+   
